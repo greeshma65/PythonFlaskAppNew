@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'GFGDEvops18'
+        return 'New changes GFG'
 
     return app
 
