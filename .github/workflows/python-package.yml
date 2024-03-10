@@ -40,7 +40,7 @@ jobs:
         pytest
 
   sonar-qube-scanner:
-    name: Build
+    name: sonar-qube-scanner
     runs-on: ubuntu-latest
     permissions: read-all
     steps:
