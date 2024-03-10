@@ -42,6 +42,7 @@ jobs:
 
   docker-build-push-to-dockerhub:
     runs-on: ubuntu-latest
+    needs: [build-test-python-app]
     steps:
       -
         name: Set up QEMU
